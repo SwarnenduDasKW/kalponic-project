@@ -1,0 +1,13 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 0;
+  text-align: center;
+  border: 2px solid red;
+  background: #f6f6f6;
+}
+
+.contact__contacts {
+  display: flex;
+  justify-content: center;
+}

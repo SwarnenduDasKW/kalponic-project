@@ -1,0 +1,41 @@
+.navigation {
+  padding: 0;
+  border-bottom: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.navigation__toolbar {
+  background: #333;
+}
+
+.navigation__kalponic {
+  display: flex;
+  align-items: center;
+  color: #e75926;
+}
+
+.navigation__kalponicName {
+  font-weight: 600;
+}
+
+.navigation__menu {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.navigation__menu > .MuiButton-text:hover {
+  color: #e75926;
+}
+
+.navigation__menu > a {
+  color: #fff;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.navigation__menu > a:hover {
+  color: #e75926;
+}

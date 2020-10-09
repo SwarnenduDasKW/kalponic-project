@@ -1,24 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Navigation from "./components/navigation";
+import Header from "./components/header";
+import About from "./components/about";
+import Services from "./components/services";
+import Portfolio from "./components/portfolio";
+import Team from "./components/team";
+import Testimonials from "./components/testimonials";
+import Contact from "./components/contact";
+import JsonData from "./data/staticdata.json";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faLeaf,
+  faCamera,
+  faRocket,
+  faBaby,
+  faQuoteLeft,
+} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faLeaf, faCamera, faRocket, faBaby, faQuoteLeft);
 
 function App() {
+  const [pageData, setPageData] = useState({});
+  useEffect(() => {
+    setPageData(JsonData);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Header />
+      <About data={pageData.About} />
+      <Services data={pageData.Service} />
+      <Portfolio />
+      <Team data={pageData.Team} />
+      <Testimonials data={pageData.Testimonials} />
+      <Contact data={pageData.Contact} />
     </div>
   );
 }

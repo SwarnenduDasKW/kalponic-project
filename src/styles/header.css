@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+}
+
+.header__intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* center p horizontally */
+  align-items: center; /* center p vertically */
+  flex-direction: column;
+  color: #fff;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.header__intro > h1 {
+  font-size: 76px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+}
+
+.header__brandHeading {
+  color: #e75926;
+  text-shadow: 0 4px #a13e1a;
+}
+
+.header__intro > p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px #797776;
+}
+
+.header__intro > .MuiButtonBase-root {
+  color: #f6f6f6;
+  background: #cf5022;
+  border: 0;
+  padding: 12px 24px;
+  margin: 0 8px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.header__intro > .MuiButtonBase-root:hover {
+  color: #f6f6f6;
+  background-color: #a13e1a;
+}

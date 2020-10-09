@@ -1,0 +1,99 @@
+{
+  "Header": {
+    "title": "Kalponic",
+    "paragraph": "Photography is a medium through which you can capture the moments of the present, relive them in future while knowing that it was something that has happened in the past. Every captured shot has a story behind it, of what the situation was when it was captured, how was it captured and much more."
+  },
+  "About": {
+    "paragraph": "We work as a team of professional wedding photographers. As one of the best candid photographers in Kolkata, we certainly know how to turn your dreams into reality. We are dedicated towards our work that is to capture every little special moment of your day. We are extremely passionate about photography and love learning new things and upgrading our skills every day. We, (KALPONIC) understand how precious this day is for you as it will never come back again and we make sure that you cherish all the precious moments of your wedding day for life.",
+    "why": [
+      "Talented photographers",
+      "Very friendly team",
+      "Dedicated creative team",
+      "Passionate and dedicated individuals"
+    ],
+    "specialties": [
+      "Candid Photography",
+      "Traditional Photography",
+      "Pre-wedding shoots",
+      "Cinematography",
+      "Albums"
+    ]
+  },
+  "Service": {
+    "description": "Kalopnic boasts an amazing team of dedicated and skilful professionals, who will deliver a bespoke, memorable experience.",
+    "services": [
+      {
+        "icon": "camera",
+        "name": "Wedding Photography",
+        "text": "Our goal is to capture couples' personalities and the natural interactions that reflect the love each partner has for one another. This operation offers fine art prints and high-end albums with a wide range of fine paper for printing, including matte, glossy, and canvas-type options. Newlyweds can expect high-quality, emotive images that celebrate their wonderful celebration."
+      },
+      {
+        "icon": "rocket",
+        "name": "Candid Photography",
+        "text": "We show life as it really is. take a moment from the life of a living breathing human and save to it be experienced by others. A candid expression of what it is to be a human being. Enjoy them and use them as an inspiration."
+      },
+      {
+        "icon": "baby",
+        "name": "Maternity Photography",
+        "text": "professional photographer offering high-end photography work to future parents, couples and families looking to capture their unique moments in life through beautiful images. We are specialized in Portraiture and Event Photography. Our focus is dedicated to Maternity and Newborn Photography."
+      },
+      {
+        "icon": "leaf",
+        "name": "Print Design",
+        "text": "A subset of graphic design, is a form of visual communication used to convey information to an audience through intentional aesthetic design printed on a tangible surface, designed to be printed on paper, as opposed to presented on a digital platform. A design can be considered print design if its final form was created through an imprint made by the impact of a stamp, seal, or dye on the surface of the paper."
+      }
+    ]
+  },
+  "Team": [
+    {
+      "img": "//live.staticflickr.com/65535/50436320343_4ab80f43d5_n.jpg",
+      "name": "Arnab Das",
+      "job": "Founder"
+    },
+    {
+      "img": "//live.staticflickr.com/65535/50437183837_25999fe4f2_n.jpg",
+      "name": "Swarnendu Das",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "http://127.0.0.1:5500/img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Creative Director"
+    },
+    {
+      "img": "http://www.templatewire.com/preview/modus/img/team/02.jpg",
+      "name": "Luke Tobias",
+      "job": "Marketing"
+    }
+  ],
+  "Testimonials": [
+    {
+      "rating": "5",
+      "text": "KALPONIC is one of the best photographer for Indian wedding. Awesome quality photos. Extremely satisfied. Highly recommend.🌹😊🚀",
+      "name": "Nitin Jaiswal"
+    },
+    {
+      "rating": "4",
+      "text": "The team at Kalponic were awesome to work with. My husband and I are from NZ and were in kolkata for our first wedding anniversary 💖. I wanted a photo shoot but had no idea where to start  - not to mention all the mahendi hair and make up to organise as well. I was given recommendations for all supporting services and our photographers - led by Arnab - were really professional which is all I can ask for. The photos are awesome and these are great memories. Thanks team!",
+      "name": "Kristen Buck"
+    },
+    {
+      "rating": "5",
+      "text": "Highly satisfied with the work, thank you so much for managing everything on my sister's wedding.💕❤",
+      "name": "Alzina Dsouza"
+    },
+    {
+      "rating": "5",
+      "text": "Our's was Kalponic's first Catholic wedding project. I still remember my husband telling me back then, that he wants to still go ahead and book this team to capture our wedding ceremony and reception because he believed that Prithu and his team would do a good job with candid captures. We can say that it was one of the best decisions we agreed upon. When we received the pics that were taken,  we were awe struck. Every capture  reflected 'genuine' happiness, love and fun. Not many photographers can capture candid pics in its entirety, keeping the emotions of that moment  intact. Thank you so much Prithu and thanks to the Kalponic team, for capturing our precious Wedding moments so beautifully,  for us to cherish forever 👍🔥❤️",
+      "name": "Mithun Roy"
+    }
+  ],
+  "Contact": {
+    "address": "Apanpally, Hridaypur, WB 700127",
+    "phone": ["+91 80179 95144", "+91 98748 85155"],
+    "email": "email.us@kalponic.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}

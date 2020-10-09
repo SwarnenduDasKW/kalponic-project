@@ -1,0 +1,36 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 0;
+  background: url(../img/services-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.service__title {
+  padding: 30px 0;
+  color: #f6f6f6;
+  text-align: center;
+}
+
+.service__desc > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f6f6f6;
+}
+
+.service__desc {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  margin: 30px;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.service__desc > .svg-inline--fa {
+  font-size: 36px;
+  color: #e75926;
+  transition: all 0.5s;
+}
