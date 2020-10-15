@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Navigation from "./components/navigation";
 import Header from "./components/header";
@@ -15,7 +16,7 @@ import {
   faCamera,
   faRocket,
   faBaby,
-  faQuoteLeft,
+  faQuoteLeft
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faLeaf, faCamera, faRocket, faBaby, faQuoteLeft);
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Navigation />
       <Header />
       <About data={pageData.About} />
@@ -36,6 +38,7 @@ function App() {
       <Team data={pageData.Team} />
       <Testimonials data={pageData.Testimonials} />
       <Contact data={pageData.Contact} />
+
     </div>
   );
 }

@@ -39,3 +39,24 @@
 .navigation__menu > a:hover {
   color: #e75926;
 }
+
+.navigation__kalponic > .MuiTypography-root {
+  background-color: #e75926;
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+/* .navigation__kalponic > .MuiSvgIcon-root {
+  border: 1px solid #e75926;
+  border-radius: 4px;
+} */
+
+.navigation__kalponic > .MuiTypography-root:hover {
+  background-color: #e75926;
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}

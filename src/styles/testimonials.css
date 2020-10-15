@@ -1,4 +1,5 @@
 .testimonial {
+  display: flex;
   padding: 140px 0;
   color: #ddd;
   background: url(../img/testimonials-bg.jpg);
@@ -20,9 +21,11 @@
 .testimonial__review > .svg-inline--fa {
   color: #777;
 }
+
 .testimonial__reviewtext {
   text-align: justify;
 }
+
 .testimonial__name {
   color: #f6f6f6;
 }

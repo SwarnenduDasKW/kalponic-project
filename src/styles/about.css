@@ -10,6 +10,12 @@
   padding: 30px 0;
 }
 
+.about__aboutuspara {
+  width: 90wh;
+  margin: 50px;
+  text-align: justify;
+}
+
 .about__details {
   display: flex;
   justify-content: space-evenly;
@@ -44,7 +50,7 @@
 }
 
 .about__what > li:before {
-  content: "✓";
+  content: "✓" !important;
   font-weight: 600;
   padding-right: 10px;
   color: #e75926;
@@ -52,5 +58,7 @@
 
 .about__image {
   width: 500px;
-  height: 300px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }

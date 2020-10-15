@@ -8,7 +8,7 @@ function About(props) {
       <div>
         <h2 className="about__aboutus">About Us</h2>
         <hr />
-        <p>{props.data ? props.data.paragraph : "loading..."}</p>
+        <p className="about__aboutuspara">{props.data ? props.data.paragraph : "loading..."}</p>
       </div>
       <div className="about__details">
         <div>
@@ -16,7 +16,7 @@ function About(props) {
         </div>
         <div className="about__who">
           <h4>Who we are</h4>
-          <p>
+          <p className="about__who">
             {props.data
               ? props.data.why.map((d, i) => <li key={`${d}-${i}`}>{d}</li>)
               : "loading"}
@@ -24,7 +24,7 @@ function About(props) {
         </div>
         <div className="about__what">
           <h4>What we do</h4>
-          <p>
+          <p className="about__what">
             {props.data
               ? props.data.specialties.map((d, i) => (
                   <li key={`${d}-${i}`}> {d}</li>

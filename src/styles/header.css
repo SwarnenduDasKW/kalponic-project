@@ -36,7 +36,7 @@
   text-shadow: 0 1px #797776;
 }
 
-.header__intro > .MuiButtonBase-root {
+/* .header__intro > .MuiButtonBase-root {
   color: #f6f6f6;
   background: #cf5022;
   border: 0;
@@ -44,9 +44,30 @@
   margin: 0 8px;
   font-size: 18px;
   transition: all 0.5s;
-}
+} */
 
 .header__intro > .MuiButtonBase-root:hover {
   color: #f6f6f6;
   background-color: #a13e1a;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.header__learnMore {
+  color: #f6f6f6 !important;
+  background: #cf5022 !important;
+  border: 0 !important;
+  padding: 12px 24px !important;
+  margin: 0 8px !important;
+  font-size: 18px !important;
+  transition: all 0.5s;
+  text-decoration: inherit !important;
+}
+
+.header__learnMore:hover {
+  color: #f6f6f6 !important;
+  background-color: #a13e1a !important;
 }

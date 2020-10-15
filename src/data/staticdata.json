@@ -56,13 +56,13 @@
       "job": "Senior Designer"
     },
     {
-      "img": "http://127.0.0.1:5500/img/team/03.jpg",
-      "name": "Jane Doe",
+      "img": "https://media-exp1.licdn.com/dms/image/C4E03AQHTOC41f0oAZA/profile-displayphoto-shrink_800_800/0?e=1608163200&v=beta&t=IcHI2lIi3I2U3jPpELmj73NMGMmxE-3OP0-dSs8iA-Y",
+      "name": "Rituparna Das",
       "job": "Creative Director"
     },
     {
       "img": "http://www.templatewire.com/preview/modus/img/team/02.jpg",
-      "name": "Luke Tobias",
+      "name": "John Doe",
       "job": "Marketing"
     }
   ],

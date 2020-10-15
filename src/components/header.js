@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import { Button } from "@material-ui/core";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
   return (
@@ -12,9 +13,11 @@ function Header() {
         <p className="header__introText">
           A full-service digital agency that loves what we do
         </p>
-        <Button variant="contained" className="header__learnMore">
-          Learn More
-        </Button>
+        <AnchorLink href="#about">
+          <Button variant="contained" className="header__learnMore">
+            Learn More
+          </Button>
+          </AnchorLink>
       </div>
     </header>
   );
