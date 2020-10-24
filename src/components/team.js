@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/team.css";
-import { Card, CardHeader, CardMedia, CardActionArea } from "@material-ui/core";
+import { Card, CardHeader, CardMedia, CardActionArea,CardContent, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 function Team(props) {
@@ -12,6 +12,7 @@ function Team(props) {
         direction="row"
         justify="center"
         alignItems="center"
+        wrap="wrap"
       >
         <Grid item xs={12}>
           <h2 className="title__title">meet the team</h2>
@@ -25,16 +26,23 @@ function Team(props) {
 
         {props.data
           ? props.data.map((d, i) => (
-              <Grid item key={`${d.name}-${i}`} xs={2}>
+              <Grid item key={`${d.name}-${i}`} xs={12} sm={2} className="team__grid">
                 <Card>
                   <CardActionArea>
                     <CardMedia
                       component="img"
                       alt={d.name}
-                      height="200"
                       image={d.img}
                     />
-                    <CardHeader title={d.name} subheader={d.job} />
+                    {/* <CardHeader title={d.name} subheader={d.job} /> */}
+                    <CardContent>
+                      <Typography variant="subtitle2">
+                        {d.name}
+                      </Typography>
+                      <Typography variant="caption" color="textSecondary" component="p">
+                        {d.job}
+                      </Typography>
+                    </CardContent>
                   </CardActionArea>
                 </Card>
               </Grid>

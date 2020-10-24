@@ -12,6 +12,7 @@ function Testimonials(props) {
         direction="row"
         justify="center"
         alignItems="center"
+        className="testimonial__testimonials"
       >
         <Grid item xs={12}>
           <h2 className="testimonial__title">What our clients say</h2>
@@ -19,7 +20,7 @@ function Testimonials(props) {
         </Grid>
         {props.data
           ? props.data.map((d, i) => (
-              <Grid item key={`${d.name}-${i}`} xs={2}>
+              <Grid item key={`${d.name}-${i}`} xs={12} sm={3} className="testimonial__reviewgrid">
                 <div className="testimonial__review">
                   <FontAwesomeIcon icon="quote-left" size="2x" />
                   <p className="testimonial__reviewtext">{d.text}</p>

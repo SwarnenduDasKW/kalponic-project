@@ -18,6 +18,7 @@ import {
   faBaby,
   faQuoteLeft
 } from "@fortawesome/free-solid-svg-icons";
+import Container from '@material-ui/core/Container';
 
 library.add(faLeaf, faCamera, faRocket, faBaby, faQuoteLeft);
 
@@ -29,17 +30,19 @@ function App() {
 
   return (
     <div className="App">
-
-      <Navigation />
-      <Header />
-      <About data={pageData.About} />
-      <Services data={pageData.Service} />
-      <Portfolio />
-      <Team data={pageData.Team} />
-      <Testimonials data={pageData.Testimonials} />
-      <Contact data={pageData.Contact} />
-
-    </div>
+      {/* <div class="container"> */}
+      <Container>
+        <Navigation />
+        <Header />
+        <About data={pageData.About} />
+        <Services data={pageData.Service} />
+        <Portfolio />
+        <Team data={pageData.Team} />
+        <Testimonials data={pageData.Testimonials} />
+        <Contact data={pageData.Contact} />
+        </Container>
+      </div>
+    // </div>
   );
 }
 

@@ -46,12 +46,12 @@
   },
   "Team": [
     {
-      "img": "//live.staticflickr.com/65535/50436320343_4ab80f43d5_n.jpg",
+      "img": "//live.staticflickr.com/65535/50436320343_4ab80f43d5_z.jpg",
       "name": "Arnab Das",
       "job": "Founder"
     },
     {
-      "img": "//live.staticflickr.com/65535/50437183837_25999fe4f2_n.jpg",
+      "img": "//live.staticflickr.com/65535/50437183837_25999fe4f2_z.jpg",
       "name": "Swarnendu Das",
       "job": "Senior Designer"
     },
@@ -95,5 +95,10 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
+  },
+  "Images":{
+    "picture1":"//live.staticflickr.com/65535/50507393231_3b1375d945_k.jpg",
+    "picture2":"//live.staticflickr.com/65535/50507555667_7ea6bedfbf_h.jpg",
+    "picture3":"//live.staticflickr.com/65535/50506678698_f9cb1fabb8_k.jpg"
   }
 }

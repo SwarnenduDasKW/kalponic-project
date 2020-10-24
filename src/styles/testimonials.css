@@ -1,10 +1,16 @@
 .testimonial {
   display: flex;
-  padding: 140px 0;
+  padding: 130px 0;
   color: #ddd;
   background: url(../img/testimonials-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.testimonial__testimonials {
+  margin: 30px !important;
+  /* border: 2px solid red; */
+  align-items: flex-start !important;
 }
 
 .testimonial__title {
@@ -16,6 +22,7 @@
 .testimonial__review {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .testimonial__review > .svg-inline--fa {

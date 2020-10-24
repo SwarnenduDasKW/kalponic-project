@@ -11,3 +11,10 @@
 .title__desc {
   text-align: center;
 }
+
+@media (max-width: 640px) {
+  .team__grid,
+  .title__desc {
+    margin: 20px !important;
+  }
+}

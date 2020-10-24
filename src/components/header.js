@@ -6,6 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 function Header() {
   return (
     <header id="header" className="header">
+      {/* <div className="header__bgimg"></div> */}
       <div className="header__intro">
         <h1>
           WELCOME TO <span className="header__brandHeading">KALPONIC</span>
@@ -17,7 +18,7 @@ function Header() {
           <Button variant="contained" className="header__learnMore">
             Learn More
           </Button>
-          </AnchorLink>
+        </AnchorLink>
       </div>
     </header>
   );
